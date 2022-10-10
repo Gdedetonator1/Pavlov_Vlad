@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>q {
+      font-family: Times, serif; /* Шрифт с засечками */ 
+      font-style: italic; /* Курсивное начертание текста */
+      color: #008; /* Цвет текста */
+     }</style>
+    <title>Tags</title>
+  </head>
+  <body>
+    <h1 align="center">Примеры использования тегов</h1>
+    <h2>Содержание:</h2>
+    <ul>
+      <li><a href="#1">Теги &ltdl&gt, &ltdt&gt, &ltdd&gt</a></li>
+      <li><a href="#2">Тег &ltpre&gt</a></li>
+      <li><a href="#3">Тег &ltcode&gt</a></li>
+      <li><a href="#4">Тег &lttt&gt</a></li>
+      <li><a href="#5">Тег &ltkbdt&gt</a></li>
+      <li><a href="#6">Тег &ltvar&gt</a></li>
+      <li><a href="#7">Теги &ltsup&gt и &ltsub&gt</a></li>
+      <li><a href="#8">Тег &ltblockquote&gt</a></li>
+      <li><a href="#9">Тег &ltq&gt</a></li>
+      <li><a href="#10">Теги &ltdel&gt и &ltins&gt</a></li>
+      <li><a href="#11">Тег &ltaddress&gt</a></li>
+    </ul>
+    <h2 id="1">Теги &ltdl&gt, &ltdt&gt, &ltdd&gt</h2>
+    <h3>Описание</h3>
+    <pre>
+    Теги &ltdl&gt, &ltdt&gt, &ltdd&gt предназначенны для создания списка определений. Каждый такой список начинается с контейнера &ltdl&gt,
+куда входит тег &ltdt&gt создающий термин и тег &ltdd&gt задающий определение этого термина.Закрывающий тег &lt/dt&gt не обязателен, поскольку
+следующий тег сообщает о завершении предыдущего элемента. Тем не менее, хорошим стилем является закрывать все теги.
+    </pre>
+    <ul>
+      <li>&ltdl&gt(description list) обозначает сам список описаний</li>
+      <li>&ltdt&gt (description term) обозначает термин</li>
+      <li>
+        &ltdd&gt (description definition) обозначает описание или определение.
+      </li>
+    </ul>
+    <h3>Синтаксис</h3>
+    <pre>
+        &ltdl&gt
+            &ltdt&gtТермин 1&lt/dt&gt
+                &ltdd&gtОпределение термина 1&lt/dd&gt
+            &ltdt&gtТермин 2&lt/dt&gt
+                &ltdd&gtОпределение термина 2&lt/dd&gt
+        &lt/dl&gt
+
+    </pre>
+    <h3>Пример использования</h3>
+    <dl>
+      <dt>html</dt>
+      <dd>
+        стандартизированный язык гипертекстовой разметки документов для
+        просмотра веб-страниц в браузере.
+      </dd>
+    </dl>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="2">Тег &ltpre&gt</h2>
+    <h3>Описание</h3>
+    <p>
+      Элемент &ltpre&gt определяет блок предварительно форматированного текста.
+      <br />
+      Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами
+      между словами. <br />
+      По умолчанию, любое количество пробелов идущих в коде подряд, на
+      веб-странице показывается как один. <br />
+      Тег &ltpre&gt позволяет обойти эту особенность и отображать текст как
+      требуется разработчику.
+    </p>
+    <h3>Пример</h3>
+    <pre>
+ Текст                       
+                            текст
+    </pre>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="3">Тег &ltcode&gt</h2>
+    <h3>Описание</h3>
+    <p>
+      Тег &ltcode&gt предназначен для отображения одной или нескольких строк
+      текста, <br />
+      который представляет собой программный код.
+    </p>
+    <h3>Пример</h3>
+    <code>print("Hello world")</code>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="4">Тег &lttt&gt</h2>
+    <h3>Пример</h3>
+    <tt>Текст</tt>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="5">Тег &ltkbd&gt</h2>
+    <h3>Описание</h3>
+    <p>
+      Тег &ltkbd&gtиспользуется для обозначения текста, <br />
+      который набирается на клавиатуре или для названия клавиш.
+    </p>
+    <h3>Пример</h3>
+    <kbd>&ltspace&gt</kbd>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="6">Тег &ltvar&gt</h2>
+    <h3>Описание</h3>
+    <p>
+      &ltvar&gt используется для выделения переменных компьютерных программ.
+      <br />
+      Содержимое этого тега браузеры обычно помечают курсивным начертанием.
+    </p>
+    <h3>Пример</h3>
+    <var>x1</var>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="7">Теги &ltsup&gt и &ltsub&gt</h2>
+    <h3>Описание</h3>
+    <p>
+      Тег &ltsup&gt отображает текст в виде верхнего индекса, а тег &ltsub&gt в
+      виде нижнегоиндекса.
+    </p>
+    <h3>Пример</h3>
+    <p>
+      x <sup>2</sup> <br />
+      H <sub>2</sub>O
+    </p>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="8">Тег &ltblockquote&gt</h2>
+    <h3>Описание</h3>
+    <p>
+      Тег &ltblockquote&gt предназначен для выделения длинных цитат
+      внутридокумента. Текст, обозначенный этим тегом,
+      <br />
+      традиционно отображается как выровненный блок с отступами слева и справа ,
+      а также с отбивкой сверху и снизу.
+    </p>
+    <h3>Пример</h3>
+    <blockquote>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem
+        nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat
+        volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+    </blockquote>
+    <hr size="2" noshade color="black" />
+
+    <h2 id="9">Тег  &ltq&gt</h2>
+    <h3>Описание</h3>
+    <p>Тег &ltq&gt используется для выделения в тексте цитат. <br>
+       Содержимое контейнера автоматически отображается в браузере в кавычках.</p>
+    <h3>Пример</h3>
+    <p>Станислав Лец утверждал:<q> чаще всего выход там, где был 
+      вход </q>.</p>
+      <hr size="2" noshade color="black" />
+
+    <h2 id="10">Теги &ltdel&gt и &ltins&gt</h2>
+    <h3>Описание</h3>
+    <p>Тег &ltdel&gt  используется для выделения текста, который был удален в новой версии документа <br>
+      Тег &ltins&gt предназначен для выделения текста, который был добавлен в новую версию документа.</p>
+    <h3>Пример</h3>
+    <p>Заметим, что схожий результат с Firefox показывает и браузер 
+  Opera, но, как видно на рис. 1, в последующих версиях <del>этот 
+  недостаток был устранен</del> <ins>подход разработчиков этого 
+  браузера был изменен</ins>.</p> 
+      <hr size="2" noshade color="black" />
+
+      <h2 id="11">Тег &ltaddress&gt</h2>
+      <h3>Описание</h3>
+      <p>Тег &ltaddress&gt предназначен для хранения информации об авторе <br>
+         и может включать в себя любые элементы HTML вроде ссылок, текста, выделений и т.д.
+      <h3>Пример</h3>
+     <address>Сделано мною</address>
+        <hr size="2" noshade color="black" />
+  
+
+</html>
+ 
