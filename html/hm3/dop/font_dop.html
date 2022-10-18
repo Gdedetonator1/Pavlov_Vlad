@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../icons/home_icon.png" />
+    <title>Dop task</title>
+  </head>
+  <body style="background-color: #e0ffff">
+    <h1 style="font-size: 50px">
+      Почему HTML считает, что «chucknorris» — это цвет?
+    </h1>
+    <p style="line-height: 2; font-size: 25px">
+      Вы никогда не пробовали задавать цвет фона в HTML при помощи разных строк?
+      Например, строка <br />
+      <code> &lt;body bgcolor="chucknorris"&gt; test &lt;/body&gt; </code>
+      <br />
+      Вот пример:
+    </p>
+    <font color="#chucknorris; ">
+      <span style="font-size: 25px">test</span>
+    </font>
+    <p style="line-height: 2; font-size: 25px">
+      сделает фон документа кроваво-красным во всех браузерах и на всех
+      платформ. <br />
+      Пропускаемые цифры распознаются как 0[...]. Некорректные символы
+      распознаются как 0. <br />
+      Так что, например, значения #F0F0F0, F0F0F0, F0F0F, #FxFxFx и FxFxFx –
+      одно и то же. <br />
+      Подробнейший разбор алгоритма разбора приведен по
+      <a
+        href="http://scrappy-do.blogspot.com/2004/08/little-rant-about-microsoft-internet.html"
+        >ссылке</a
+      >
+      . Если применить эти правила, то получим следующее :
+    </p>
+    <ul style="font-size: 25px">
+      <li>
+        Заменяем все неправильные шестнадцатеричные символы нулями 0,
+        chucknorris превращается в <strong>c00c0000000</strong>
+      </li>
+      <li>
+        “Добиваем” число нулями до количества знаков, делимого на 3 (11 -> 12),
+        получаем <strong>c00c 0000 0000</strong>
+      </li>
+      <li>
+        Разбиваем на три группы, каждая из которых отвечает за одну компоненту
+        RGB: <strong>RGB (c00c, 0000, 0000)</strong>
+      </li>
+      <li>
+        Обрезаем каждый из аргументов справа, оставляя 2 символа, и получаем наш
+        результат
+        <strong>RGB (c0, 00, 00) = #C00000 или он же RGB(192, 0, 0).</strong>
+      </li>
+    </ul>
+  </body>
+</html>
