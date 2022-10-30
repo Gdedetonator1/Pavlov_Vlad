@@ -1,0 +1,23 @@
+body {
+  background-image: url("../html/hm4/images/fon1.jpg");
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+}
+.content {
+  padding: 50px;
+  background-color: #e0ffff;
+  margin: 0 15% 0 15%;
+  min-height: 500px;
+}
+.index {
+  margin-left: auto;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+}
