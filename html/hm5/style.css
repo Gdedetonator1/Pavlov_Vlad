@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+.title {
+  background-color: #add8e6;
+  text-align: center;
+  color: #0000ff;
+  padding: 1px;
+  margin-bottom: 0px;
+}
+.footer {
+  background-color: #add8e6;
+  text-align: center;
+  color: #0000ff;
+  padding: 1px;
+}
+.menu {
+  width: 200px;
+  font-size: 25px;
+  float: left;
+  white-space: normal;
+}
+.content {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+img {
+  padding: 4px;
+  width: 400px;
+  float: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 25px;
+}
