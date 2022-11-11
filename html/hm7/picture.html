@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../icons/home_icon.png" />
+    <title>Picture</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: url(../hm4/images/fon1.jpg);
+      }
+      .tag {
+        color: blue;
+      }
+      .tag::before {
+        content: "<";
+      }
+      .tag::after {
+        content: ">";
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .info {
+        width: 400px;
+      }
+      .container {
+        margin: 0 15% 0 15%;
+        background-color: whitesmoke;
+        min-height: 600px;
+      }
+      p {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Тег <span class="tag"> picture</span></h1>
+      </div>
+      <div>
+        <p>
+          HTML-элемент <span class="tag"> picture</span> **служит контейнером
+          для одного или более элементов <span class="tag">source</span> и
+          одного элемента <span class="tag">img</span> для обеспечения
+          оптимальной версии изображения для различных размеров экрана. Браузер
+          рассмотрит каждый из дочерних элементов
+          <span class="tag">source</span>
+
+          и выберет один, соответствующий лучшему совпадению; если совпадений
+          среди элементов <span class="tag">source</span>
+
+          найдено не будет, то будет выбран файл, указанный атрибутом src
+          элемента
+          <span>img</span> . Затем выбранное изображение отображается в
+          пространстве, занятом элементом <span class="tag">img</span>. <br />
+          Чтобы выбрать оптимальное изображение, user agent анализирует атрибуты
+          srcset , media, и type элемента <span class="tag">source</span> и
+          выбирает совместимое изображение, которое наилучшим образом
+          соответствует текущему макету страницы, характеристикам устройства
+          отображения и т. д.
+        </p>
+      </div>
+      <div><h2 style="margin-top: 20px">Пример</h2></div>
+      <div>
+        <picture>
+          <source
+            media="(min-width: 1100px )"
+            srcset="../hm7/images/second_flower.jpg"
+          />
+          <source
+            media="(min-width: 800px )"
+            srcset="../hm7/images/third_flower.jpg"
+          />
+          <img src="../hm7/images/first_flower.jpg" alt="1flower" />
+        </picture>
+      </div>
+    </div>
+  </body>
+</html>
