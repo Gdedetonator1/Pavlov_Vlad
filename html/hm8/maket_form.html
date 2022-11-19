@@ -46,6 +46,12 @@
       position: relative;
       top: 2px;
     }
+    .name {
+      margin-left: 200px;
+    }
+    input[name="topic"] {
+      width: 100%;
+    }
     @media all and (max-width: 700px) {
       label {
         float: none;
@@ -57,6 +63,12 @@
       .check {
         display: inline-block;
       }
+      label[for="name"] {
+        float: none;
+      }
+      .name {
+        margin-left: 0px;
+      }
     }
   </style>
   <body>
@@ -64,9 +76,8 @@
       <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
       <form action=" https://fe.it-academy.by/TestForm.php" method="post">
         <div>
-          <label for="name">Название статьи:</label>
-
-          <input type="text" name="topic" id="name" />
+          <label for="name" style="float: left">Название статьи:</label>
+          <div class="name"><input type="text" name="topic" id="name" /></div>
         </div>
 
         <div>
