@@ -1,0 +1,789 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 1296px;
+  font-family: "Roboto";
+}
+.clearfix {
+  clear: both;
+}
+/* header */
+.header {
+  width: 1296px;
+  height: 137px;
+  margin-bottom: 31px;
+  background: #000000;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cont {
+  width: 1296px;
+  height: 3113px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header_top {
+  margin-left: 88px;
+}
+.drop_down_menu {
+  margin-top: 14px;
+  margin-right: 20px;
+  float: left;
+  border-radius: 31px;
+  width: 73px;
+  height: 24px;
+  background-color: rgb(64, 64, 64);
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  color: #e7e7e7;
+  text-align: center;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.image_header {
+  width: 32px;
+  height: 32px;
+  margin-right: 70px;
+  margin-top: -8px;
+}
+
+.telephones {
+  font-weight: 500;
+  font-size: 14px;
+  color: #e7e7e7;
+  margin-right: 50px;
+}
+.telephones > p {
+  float: left;
+  margin-right: 18px;
+  margin-top: 18px;
+}
+.rubrics {
+  font-weight: 400;
+  font-size: 14px;
+  float: left;
+  color: #99938a;
+  margin-left: 26px;
+  margin-top: 17px;
+  text-decoration-line: underline;
+}
+[name="first"] {
+  margin-left: 32px;
+}
+[name="last"] {
+  margin-right: 480px;
+}
+.header_menu {
+  margin-left: 88px;
+  margin-top: 30px;
+}
+.category {
+  float: left;
+  border-radius: 8px;
+  background: #fade4b;
+  width: 148px;
+  height: 46px;
+  margin-right: 30px;
+}
+.cate {
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+
+  padding-top: 11px;
+  padding-bottom: 14px;
+  padding-left: 8px;
+  background: #fade4b;
+  border: none;
+}
+#lines {
+  width: 16px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0px;
+}
+.navicon {
+  float: left;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+.market {
+  float: left;
+
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 26px;
+  margin-right: 48px;
+  float: left;
+  width: 151px;
+  height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 26px;
+  margin-right: 48px;
+
+  margin-top: 6px;
+}
+
+.find {
+  float: left;
+  border-radius: 60px;
+  background-color: rgb(64, 64, 64);
+  width: 459px;
+  height: 56px;
+  margin-top: -7px;
+  margin-right: 38px;
+}
+.find > img {
+  float: right;
+  padding-top: 18px;
+  padding-right: 20px;
+}
+.search {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background: rgb(64, 64, 64);
+  background-color: rgb(64, 64, 64);
+  width: 30px;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #ffffff;
+  width: 346px;
+  height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.6;
+  padding-left: 21px;
+  padding-top: 5px;
+}
+
+.icon > ul > li {
+  list-style-type: none;
+  float: left;
+  color: #ffffff;
+}
+
+.podpis {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-left: -104px;
+  margin-top: 32px;
+}
+
+/* carousel */
+
+.carousel_back {
+  position: relative;
+  width: 1120px;
+  height: 360px;
+  border-radius: 8px;
+  margin-left: 88px;
+  margin-right: 88px;
+  background-image: url(../maket/img/photoaparat.png);
+}
+.black_phon {
+  position: absolute;
+  width: 160px;
+  height: 87px;
+  left: 34px;
+  top: 40px;
+
+  background: #000000;
+}
+.car_content {
+  position: absolute;
+  width: 604px;
+  height: 167px;
+
+  left: 84px;
+  top: 48px;
+}
+.car_content > p[name="first_p"] {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.car_content > p[name="second_p"] {
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.know {
+  position: absolute;
+  width: 220px;
+  height: 46px;
+  border: 2px solid #fade4b;
+  border-radius: 28px;
+  left: 0;
+  bottom: 0;
+}
+#href {
+  position: absolute;
+  top: 27%;
+  color: #fade4b;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  align-items: center;
+  left: 53px;
+}
+
+.arrow_2 {
+  cursor: pointer;
+
+  position: relative;
+  top: 34px;
+  left: 975px;
+  width: 40px;
+  height: 40px;
+  background: rgb(51, 51, 51);
+  border: 0.1875em solid rgb(51, 51, 51);
+  border-radius: 50%;
+}
+
+.arrow_2 div {
+  position: relative;
+
+  left: 12px;
+  right: 12px;
+  top: 50%;
+  bottom: 50%;
+  width: 16px;
+
+  height: 2px;
+
+  background-color: black;
+
+  display: block;
+}
+
+.arrow_2 div::before {
+  content: "";
+
+  position: absolute;
+
+  width: 8px;
+
+  height: 2px;
+
+  top: 2.99px;
+  right: -0.1px;
+
+  background-color: black;
+
+  transform: rotate(-45deg);
+}
+
+.arrow_2 div::after {
+  content: "";
+
+  position: absolute;
+
+  width: 8px;
+
+  height: 2px;
+
+  top: -3px;
+  right: -0.16667px;
+
+  background-color: black;
+
+  transform: rotate(45deg);
+}
+
+.arrow_1 {
+  cursor: pointer;
+  position: relative;
+  left: -63px;
+  width: 40px;
+  height: 40px;
+  background: rgb(51, 51, 51);
+  border: 0.1875em solid rgb(51, 51, 51);
+  border-radius: 50%;
+}
+
+.arrow_1 div {
+  position: relative;
+
+  left: 12px;
+  right: 12px;
+  top: 50%;
+  bottom: 50%;
+  width: 16px;
+
+  height: 2px;
+
+  background-color: black;
+
+  display: block;
+}
+
+.arrow_1 div::before {
+  content: "";
+
+  position: absolute;
+
+  width: 8px;
+
+  height: 2px;
+
+  top: 3.55px;
+
+  background-color: black;
+
+  transform: rotate(45deg);
+}
+
+.arrow_1 div::after {
+  content: "";
+
+  position: absolute;
+
+  width: 8px;
+
+  height: 2px;
+
+  top: -3px;
+  right: 7.83333px;
+
+  background-color: black;
+
+  transform: rotate(315deg);
+}
+.sq {
+  margin-top: 26px;
+  margin-left: 620px;
+}
+
+.sq > ul > li {
+  float: left;
+  cursor: pointer;
+  list-style-type: none;
+  width: 12px;
+  height: 12px;
+  background: #dddddd;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.sq > ul li:first-child {
+  background: #a5a5a5;
+}
+
+.add {
+  width: 1120px;
+  height: 280px;
+  margin-left: 88px;
+  margin-right: 88px;
+  margin-top: 80px;
+}
+.block {
+  float: left;
+  width: 352px;
+  height: 280px;
+  background: #efefef;
+  border-radius: 20px;
+  margin-right: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block:first-child {
+  background-image: url(./img/Canon\ EOS\ 5D\ Mark\ IV\ Body.png);
+}
+.block:nth-child(2) {
+  background-image: url(./img/03_canon\ 1.png);
+}
+.block:last-child {
+  background-image: url(../maket/img/nikonn.png);
+  margin-right: 0px;
+}
+
+.photoapparats {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+.price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 121px;
+}
+
+.discount {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fade4b;
+  margin-left: 220px;
+  margin-top: 87px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  text-align: center;
+  font-style: normal;
+  transform: rotate(-15deg);
+}
+#second_child {
+  background: #fb000f;
+  color: #fffcfc;
+}
+.kr {
+  display: inline-block;
+  width: 58px;
+  height: 55px;
+  margin-left: 14px;
+  margin-top: 14.4px;
+  margin-right: 15px;
+}
+.hit {
+  margin-top: 49px;
+  margin-left: 88px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 74px;
+}
+.img1 {
+  float: left;
+  margin-left: 110px;
+  cursor: pointer;
+}
+.img2 {
+  float: left;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.img3 {
+  float: left;
+  margin-left: 80px;
+  margin-top: 31px;
+  cursor: pointer;
+}
+.img4 {
+  float: left;
+  margin-left: 67px;
+  margin-top: -31px;
+  cursor: pointer;
+}
+.img5 {
+  float: left;
+  margin-left: 56px;
+  margin-top: -16px;
+  cursor: pointer;
+}
+
+.first_price {
+  margin-top: 24px;
+  margin-left: 88px;
+  float: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  color: #000000;
+  margin-right: 53px;
+}
+.second_price {
+  margin-top: 24px;
+  float: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  color: #000000;
+  margin-right: 56px;
+}
+.third_price {
+  margin-top: 24px;
+  float: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  color: #000000;
+  margin-right: 111px;
+}
+.fourth_price {
+  margin-top: 24px;
+  float: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  color: #000000;
+  margin-right: 108px;
+}
+.fifth_price {
+  margin-top: 24px;
+  float: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.3px;
+  color: #000000;
+}
+#C {
+  margin-right: 38px;
+}
+#St {
+  margin-right: 81px;
+}
+#Can {
+  margin-right: 82px;
+}
+#Svet {
+  margin-right: 76px;
+}
+.old_price {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: line-through;
+  color: #858fa4;
+}
+.describe {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(127, 127, 127);
+}
+#powershot {
+  float: left;
+  margin-left: 110px;
+  margin-top: 75px;
+  cursor: pointer;
+}
+#stab {
+  float: left;
+  margin-left: 64px;
+  margin-top: 33px;
+  cursor: pointer;
+}
+#speedlite {
+  float: left;
+  margin-left: 64px;
+  margin-top: 64px;
+  cursor: pointer;
+}
+#svet {
+  float: left;
+  margin-left: 87px;
+  margin-top: 66px;
+  cursor: pointer;
+}
+#objective {
+  float: left;
+  margin-left: 77px;
+  margin-top: 51px;
+  cursor: pointer;
+}
+
+#more {
+  width: 220px;
+  height: 46px;
+  background: rgb(245, 245, 245);
+
+  border-radius: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 51px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+
+.brands_icons {
+  float: left;
+  margin-top: 80px;
+}
+.brands_icons > img {
+  margin-right: 36px;
+}
+
+#pentax {
+  margin-right: 0px;
+  width: 190px;
+}
+
+#review {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-left: 88px;
+  margin-top: 65px;
+}
+.cam_review {
+  margin-top: 32px;
+  margin-left: 88px;
+}
+.cam_review > img {
+  margin-right: 38px;
+  cursor: pointer;
+}
+#nikonz6id {
+  float: left;
+  margin-top: 15.41px;
+  width: 324px;
+  height: 57px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+#zhiyunid {
+  float: left;
+  margin-top: 15.41px;
+  width: 324px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-left: 78px;
+}
+#best_objid {
+  margin-top: 15.41px;
+  float: left;
+  width: 324px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-left: 60px;
+}
+#inst {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-left: 88px;
+  margin-top: 98px;
+}
+.inst_pictures {
+  position: relative;
+  margin-left: 88px;
+  margin-top: 40px;
+}
+.inst_pictures > img {
+  float: left;
+  margin-right: 27.5px;
+}
+img[alt="opacity"] {
+  opacity: 0.7;
+}
+.href_inst {
+  margin-right: 27.5px;
+  float: left;
+  width: 202px;
+  height: 202px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(./img/fotovibor\ 1.png);
+}
+.footer {
+  margin-top: 80px;
+  width: 1296px;
+  height: 428px;
+  background: #000000;
+}
+#foot_left_ul {
+  margin-left: 88px;
+  margin-top: 48px;
+  float: left;
+  margin-right: 180px;
+}
+.foot_ul {
+  margin-top: 48px;
+  float: left;
+  margin-right: 180px;
+}
+li p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer_li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+#last_ul {
+  margin-right: 132px;
+}
+.cont_info {
+  float: right;
+  width: 272px;
+  height: 163px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32.75px;
+
+  color: #ffffff;
+  margin-top: 48px;
+  margin-right: 89px;
+}
+.cont_cards {
+  float: right;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 8px;
+  margin-right: 89px;
+  color: #ffffff;
+}
+#sposob_oplaty {
+  margin-right: 144px;
+}
