@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../icons/home_icon.png" />
+    <title>Test_anim</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      height: 400px;
+      background-color: aquamarine;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    @keyframes bord_width {
+      from {
+        border: 3px solid black;
+      }
+      to {
+        border: 10px dotted purple;
+      }
+    }
+    .first_block {
+      height: 80px;
+      width: 80px;
+      background-color: blueviolet;
+      border: 3px solid black;
+    }
+    .container:hover .first_block {
+      background-color: darkgreen;
+      animation: bord_width 3s infinite;
+    }
+    .second_block {
+      height: 300px;
+      width: 200px;
+      background-color: crimson;
+      animation-name: square;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+    }
+    .third_block {
+      height: 300px;
+      width: 200px;
+      background-color: chartreuse;
+    }
+    @keyframes square {
+      from {
+        background-color: yellow;
+        height: 300px;
+        width: 200px;
+      }
+      to {
+        background-color: slategray;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+      }
+    }
+
+    .container:hover .third_block {
+      height: 70px;
+      width: 70px;
+      position: relative;
+      animation-name: move;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes move {
+      0% {
+        background-color: violet;
+        top: 0px;
+        left: 0px;
+      }
+      25% {
+        background-color: cadetblue;
+        left: 0px;
+        top: 300px;
+      }
+      50% {
+        background-color: darkgoldenrod;
+        left: 100px;
+        top: 300px;
+      }
+      75% {
+        background-color: darkblue;
+        left: 100px;
+        top: 0px;
+      }
+      100% {
+        background-color: violet;
+        left: 0px;
+        top: 0px;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="first_block"></div>
+      <div class="second_block"></div>
+      <div class="third_block"></div>
+    </div>
+  </body>
+</html>
