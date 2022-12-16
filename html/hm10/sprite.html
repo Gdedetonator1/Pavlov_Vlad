@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../icons/home_icon.png" />
+    <title>Sprites</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @keyframes MyAnimation2 {
+      from {
+        background: url("./img/sprite.png") 0 0;
+      }
+      to {
+        background: url("./img/sprite.png") -900px 0;
+      }
+    }
+    .sprite {
+      width: 100px;
+      height: 130px;
+      animation: MyAnimation2 1s steps(8) infinite;
+      position: absolute;
+      left: 50px;
+    }
+  </style>
+  <body>
+    <div class="sprite"></div>
+  </body>
+</html>

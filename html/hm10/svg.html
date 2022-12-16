@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../icons/home_icon.png" />
+    <title>Svg</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    svg {
+      width: 1000px;
+      height: 800px;
+    }
+    .window {
+      fill: aqua;
+      stroke: blue;
+    }
+    .window:hover {
+      fill: blue;
+      stroke: aqua;
+      stroke-width: 10px;
+    }
+    .house {
+      fill: red;
+      stroke: yellow;
+    }
+    .house:hover {
+      fill: yellow;
+      stroke: red;
+      stroke-width: 10px;
+    }
+    .roof {
+      fill: blueviolet;
+      stroke: chartreuse;
+      stroke-width: 10px;
+    }
+    .roof:hover {
+      fill: chartreuse;
+      stroke: blueviolet;
+    }
+  </style>
+  <body>
+    <svg>
+      <rect class="house" x="200" y="300" width="500" height="400"></rect>
+      <circle class="window" cx="450" cy="450" r="60"></circle>
+      <polyline class="roof" points="200,300 450,100 700,300"></polyline>
+    </svg>
+  </body>
+</html>
