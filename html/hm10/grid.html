@@ -26,8 +26,6 @@
         display: none;
       }
       .menu {
-        flex-basis: 200px;
-
         background-color: rgb(228, 204, 98);
         font-size: 25px;
       }
@@ -56,7 +54,8 @@
         clear: both;
       }
       .container {
-        display: flex;
+        display: grid;
+        grid-template-columns: 20% 80%;
       }
       @media all and (max-width: 573px) {
         .title,
@@ -69,9 +68,7 @@
         img {
           width: 100%;
         }
-        .container {
-          flex-direction: column-reverse;
-        }
+
         ul {
           display: none;
         }
@@ -111,7 +108,7 @@
         }
       }
     </style>
-    <title>Flexbox</title>
+    <title>Grid</title>
   </head>
   <body>
     <div class="title"><h1>Привет участникам соревнований!</h1></div>
