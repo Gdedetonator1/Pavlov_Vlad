@@ -350,6 +350,7 @@ span[name="filters_span"] {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-top: 58px;
 }
 #gray_foot {
@@ -366,4 +367,13 @@ span[name="filters_span"] {
 #app_store {
   width: 121.96px;
   height: 41px;
+}
+li {
+  list-style-type: none;
+}
+.menu ul li:first-child {
+  margin-bottom: 12px;
+}
+.menu ul li {
+  margin-bottom: 8px;
 }
