@@ -1,0 +1,151 @@
+#equipment_description_head {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+}
+.equipment_description {
+  display: flex;
+  margin-top: 54px;
+  gap: 30px;
+}
+.equipment_description_left {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+ul[name="equipment_small_ul"] {
+  display: flex;
+  gap: 29px;
+}
+.equipment_description_right {
+  display: flex;
+  gap: 27px;
+}
+.equipment_description_right_items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.yellow_button {
+  width: 203.3px;
+  height: 46.22px;
+  margin-left: 0px;
+}
+.equipment_description_right_items span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #2d2d2d;
+}
+.equipment_description_right_items p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 156.69%;
+  color: #000000;
+}
+.equipment_description_text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#equipment_description_text_img {
+  display: flex;
+  gap: 30px;
+}
+#equipment_description_text_img img {
+  width: 372px;
+  height: 350px;
+}
+.equipment_description_text span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 142.19%;
+
+  color: #2d2d2d;
+}
+.equipment_description_text h2 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+
+  color: #2d2d2d;
+}
+.equipment_description_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.69%;
+  /* or 25px */
+
+  /* text */
+
+  color: #2d2d2d;
+}
+.owl-carousel .owl-item img {
+  width: auto;
+}
+.owl-nav button {
+  position: absolute;
+}
+.owl-nav .owl-prev {
+  left: 46%;
+}
+.owl-nav .owl-next {
+  left: 42%;
+}
+.owl-nav button img {
+  width: 40px;
+  height: 40px;
+}
+.owl-nav button img:hover {
+  background-color: #f3f3f3;
+  border: 1px solid #ff971d;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #f3f3f3;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 34px;
+  height: 4px;
+  background-color: #c4c4c4;
+  margin: 0px;
+  border-radius: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #535554;
+}
+#same_krans {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+  margin-bottom: 67px;
+}
+.owl-dots {
+  position: absolute;
+  left: 40%;
+  top: 115%;
+}
+div[name="margin"] {
+  margin-bottom: 150px;
+}
+.yellow_button {
+  margin-left: 22px;
+}

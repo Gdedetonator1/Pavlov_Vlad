@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anketa if</title>
+  </head>
+  <body>
+    <script>
+      var conf_gender = confirm("ваш пол - мужской?");
+      var age = parseInt(prompt("ваш возраст в годах"));
+      var name = prompt("Ваше имя?");
+      var surname = prompt("Ваша фамилия?");
+      var third_name = prompt("Ваше отчество?");
+      var gender;
+      var pensia = " ";
+
+      (conf_gender == true && age >= 65) || (conf_gender == false && age >= 60)
+        ? (pensia = "вы на пенсии")
+        : (pensia = "работяга до пенсии далеко");
+
+      conf_gender ? (gender = "мужской") : (gender = "женский");
+      var print =
+        "ваше ФИО: " +
+        name +
+        " " +
+        surname +
+        " " +
+        third_name +
+        "\n" +
+        "ваш возраст в годах: " +
+        age +
+        "\n" +
+        "ваш возраст в днях: " +
+        age * 365 +
+        "\n" +
+        "через 5 лет вам будет: " +
+        (age + 5) +
+        "\n" +
+        "ваш пол: " +
+        gender +
+        "\n" +
+        "пенсия:" +
+        pensia;
+      alert(print);
+    </script>
+  </body>
+</html>

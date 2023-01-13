@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .buttons {
+      display: flex;
+      margin: 0 auto;
+      height: 200px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      background-color: grey;
+      width: 250px;
+    }
+    input {
+      height: 50px;
+      width: 250px;
+      background-color: aqua;
+      border: none;
+    }
+    input:hover {
+      background-color: blue;
+      color: red;
+    }
+  </style>
+  <body>
+    <div class="buttons">
+      <input
+        type="button"
+        value="ввод информации о стране"
+        onclick="enter_info()"
+      />
+      <input
+        type="button"
+        value="получение информации о стране"
+        onclick="get_info()"
+      />
+      <input type="button" value="перечень всех стран" onclick="list()" />
+      <input
+        type="button"
+        value="удаление информации о стране"
+        onclick="delete_info()"
+      />
+    </div>
+    <script>
+      var countries = {};
+      function enter_info(countryName, capitalName) {
+        var countryName = prompt("Введите название страны");
+        var capitalName = prompt("Введите столицу страны");
+        countries[countryName] = capitalName;
+      }
+      function get_info() {
+        var countryName = prompt("Введите название страны");
+        if (countryName in countries) {
+          alert(
+            "Страна:" +
+              countryName +
+              " \t" +
+              "Столица:" +
+              countries[countryName]
+          );
+        } else {
+          alert("нет информации о стране " + countryName + "!");
+        }
+      }
+      function list() {
+        for (var k in countries) {
+          res += "\n" + getCountryInfo(k);
+          return res;
+        }
+      }
+      function delete_info() {
+        var countryName = prompt("Введите название страны");
+        delete countries["countryName"];
+      }
+    </script>
+  </body>
+</html>
