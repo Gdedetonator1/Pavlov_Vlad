@@ -30,3 +30,51 @@
 .owl-theme .owl-dots .owl-dot:hover span {
   background-color: #535554;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+.header_menu {
+  min-height: 76px;
+  background-color: #ff971d;
+}
+.menu_content {
+  display: flex;
+  align-items: center;
+  min-height: 76px;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  gap: 30px;
+}
+.links a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.links a:last-child {
+  margin-right: 0px;
+}
+.menu_find input[placeholder="Поиск..."] {
+  border: 1px solid rgba(45, 45, 45, 0.6);
+  width: 270px;
+  height: 30px;
+  background-color: #f3f3f3;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.menu_find {
+  position: relative;
+}
+.menu_find img {
+  position: absolute;
+  left: 248px;
+  top: 7px;
+}

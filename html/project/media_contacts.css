@@ -1,0 +1,54 @@
+/* media contacts */
+@media all and (max-width: 790px) {
+  .contacts_inputs input[placeholder="Имя"] {
+    width: 354px;
+  }
+  .contacts_inputs input[placeholder="E-mail"] {
+    width: 354px;
+  }
+  .contacts_inputs input[placeholder="Телефон"] {
+    width: 354px;
+  }
+  .contacts_inputs input[placeholder="Сообщение"] {
+    width: 354px;
+    height: 50px;
+  }
+  .contacts_inputs label {
+    width: 354px;
+  }
+  .contacts_inputs .yellow_button {
+    width: 354px;
+  }
+  #contacts_inputs_ul {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 662px) {
+  .contacts_inputs input[placeholder="Имя"] {
+    width: 290px;
+  }
+  .contacts_inputs input[placeholder="E-mail"] {
+    width: 290px;
+  }
+  .contacts_inputs input[placeholder="Телефон"] {
+    width: 290px;
+  }
+  .contacts_inputs input[placeholder="Сообщение"] {
+    width: 290px;
+    height: 50px;
+  }
+  .contacts_inputs label {
+    width: 290px;
+  }
+  .contacts_inputs .yellow_button {
+    width: 290px;
+  }
+  .contacts_content {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contacts_inputs {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,226 @@
+/* MEDIA COMMON */
+@media all and (max-width: 1020px) {
+  /* head */
+  .header_info {
+    display: none;
+  }
+  .header_btn {
+    display: none;
+  }
+  .icons_contacts_bottom {
+    flex-direction: column;
+    gap: 18px;
+  }
+  /* header menu */
+  .links {
+    position: absolute;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    width: 100%;
+    top: 150px;
+    right: -101%;
+    opacity: 0;
+    z-index: 1;
+    gap: 10px;
+  }
+  .links a[alt="now_page"] {
+    border: none;
+  }
+  .header_menu_button {
+    display: block;
+  }
+  /* footer */
+  .footer_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .footer_item_2 {
+    grid-column-end: 4;
+    padding-top: 30px;
+    padding-right: 35px;
+  }
+  div[name="footer_contacts"] {
+    padding-top: 30px;
+  }
+  /* description */
+  .desctiption_content {
+    flex-direction: column;
+  }
+  .description_header {
+    margin-top: 80px;
+    text-align: center;
+  }
+  div[name="description"] {
+    margin-bottom: 30px;
+  }
+}
+@media all and (max-width: 950px) {
+  .content_slider_2 {
+    flex-direction: column;
+    gap: 56px;
+  }
+  .text_slider_2 h2 {
+    margin-top: 0px;
+  }
+  .text_slider_2 p {
+    width: 80%;
+  }
+  .text_slider_2 {
+    margin-left: 100px;
+  }
+  .numbers_content_items {
+    flex-wrap: wrap;
+  }
+  .numbers_content_items div[name="numbers_content_item"] {
+    width: 47%;
+  }
+  .about_us_block {
+    flex-direction: column-reverse;
+  }
+  img[alt="about_us"] {
+    width: 100%;
+    position: relative;
+  }
+  .about_us_description {
+    width: 100%;
+  }
+  .inputs_yellow_polosy_block {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 34px;
+  }
+  #checkbox_yellow_polosa {
+    margin-top: 22px;
+    width: 300px !important;
+    margin: 0 auto !important;
+    margin-bottom: 34px !important;
+  }
+  #postavim_tehniku {
+    text-align: center;
+  }
+}
+@media all and (max-width: 800px) {
+  .services_grid ul {
+    justify-content: center;
+  }
+  .services_content span {
+    text-align: center;
+  }
+}
+@media all and (max-width: 630px) {
+  .numbers_content {
+    flex-direction: column;
+  }
+  .footer_content {
+    display: flex;
+    gap: 30px;
+    justify-content: inherit;
+  }
+  #logo_footer {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #first_footer_item {
+    width: 50%;
+    margin-left: 10%;
+  }
+  .footer_item_2 {
+    width: 100%;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  div[name="footer_contacts"] {
+    padding-top: 0px;
+    width: 100%;
+    align-items: center;
+    padding-right: 20px;
+  }
+  div[name="uslugi_footer"] {
+    margin-left: 10%;
+  }
+  .questions_content form input {
+    width: 290px;
+  }
+
+  .questions_content form .yellow_button {
+    width: 290px;
+  }
+  #questions_content_checkbox {
+    width: 290px;
+  }
+  .questions_content {
+    width: 100%;
+    align-items: center;
+  }
+  .questions {
+    background: url(./img/questions-bg.jpg) repeat-x,
+      url(./img/questions-bg.jpg) 0px 100% repeat-x #292929;
+  }
+}
+/* 
+ */
+@media all and (max-width: 530px) {
+  .content_header {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .header_contacts {
+    margin-bottom: 32px;
+  }
+  .text_left_header {
+    margin-top: 20px;
+  }
+  .links {
+    top: 270px;
+  }
+  .text_slider_2 {
+    margin-left: 0px;
+  }
+  /* description */
+  .desctiption_content_icons {
+    flex-direction: column;
+  }
+  .desctiption_content_icons_item {
+    align-self: center;
+  }
+  .numbers_content_items div[name="numbers_content_item"] {
+    width: 100%;
+  }
+  .logo {
+    align-self: center;
+  }
+}
+@media all and (max-width: 473px) {
+  #first_footer_item {
+    width: 100%;
+    align-items: center;
+    margin-left: 0%;
+  }
+  .footer_item {
+    width: 100%;
+    align-items: center;
+  }
+  .footer_content {
+    flex-direction: column;
+  }
+  div[name="uslugi_footer"] {
+    margin-left: 0%;
+    width: 100%;
+    align-items: center;
+  }
+  .footer-content .footer_item {
+    margin-left: 0%;
+    width: 100%;
+    align-items: center;
+  }
+  .inputs_yellow_polosy_content {
+    width: 290px;
+  }
+  #checkbox_yellow_polosa {
+    width: 300px !important;
+  }
+}

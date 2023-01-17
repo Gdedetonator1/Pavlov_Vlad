@@ -35,6 +35,7 @@
     <title>Аренда кранов: гусеничных и мобильных Liebherr в Москве и РФ</title>
     <link rel="stylesheet" href="./style_common.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
   </head>
 
   <body>
@@ -87,7 +88,14 @@
       <div class="header_menu">
         <div class="container">
           <div class="menu_content">
-            <div class="links">
+            <div class="header_menu_button">
+              <img
+                src="../project/img/burger.svg"
+                onclick="openmenu_head()"
+                alt="burger"
+              />
+            </div>
+            <div class="links" data-open="false">
               <a href="./katalog.html " title="katalog" alt="katalog"
                 >Каталог</a
               >
@@ -130,9 +138,11 @@
                       работаем по всей России
                     </p>
                     <div class="buttons_slider_1">
-                      <a href="#" class="yellow_button">Заказать звонок</a>
+                      <a href="./contacts.html" class="yellow_button"
+                        >Заказать звонок</a
+                      >
                       <div id="buttons_slider_1_second_btn">
-                        <a href="#">Каталог техники</a>
+                        <a href="./katalog.html">Каталог техники</a>
                       </div>
                     </div>
                   </div>
@@ -152,10 +162,12 @@
                       работаем по всей России
                     </p>
                     <div class="buttons_slider_1">
-                      <a href="#" class="yellow_button">Заказать звонок</a>
+                      <a href="./contacts.html" class="yellow_button"
+                        >Заказать звонок</a
+                      >
 
                       <div id="buttons_slider_1_second_btn">
-                        <a href="#">Каталог техники</a>
+                        <a href="./katalog.html">Каталог техники</a>
                       </div>
                     </div>
                   </div>
@@ -201,7 +213,9 @@
                 процесс.
               </p>
 
-              <a href="#" class="yellow_button">Выбрать спецтехнику</a>
+              <a href="./katalog.html" class="yellow_button"
+                >Выбрать спецтехнику</a
+              >
             </div>
           </div>
         </div>
@@ -253,7 +267,9 @@
             </div>
           </div>
           <div class="desctiption_button">
-            <a href="#" class="desctiption_button_btn">Заказать звонок</a>
+            <a href="./contacts.html" class="desctiption_button_btn"
+              >Заказать звонок</a
+            >
           </div>
         </div>
       </div>
@@ -469,7 +485,7 @@
         ></div>
       </div>
       <div name="yellow_polosa"></div>
-      <div style="height: 265px; background-color: white">
+      <div class="put_the_technik">
         <div class="container">
           <div class="yellow_polosa_content">
             <h3 id="postavim_tehniku">
@@ -486,9 +502,11 @@
                 placeholder="Ваш телефон*"
                 class="inputs_yellow_polosy_content"
               />
-              <a href="#" class="yellow_button">Заказать звонок</a>
+              <a href="./contacts.html" class="yellow_button"
+                >Заказать звонок</a
+              >
             </div>
-            <div style="position: relative; margin-top: 22px">
+            <div id="checkbox_yellow_polosa">
               <label class="yellow_polosa_check">
                 <input
                   type="checkbox"
@@ -507,18 +525,24 @@
       <div name="yellow_polosa" alt="yellow_polosa_bottom"></div>
 
       <div class="container">
+        <span class="about_us_span">О нас</span>
         <div class="about_us_block">
           <div class="about_us_description">
-            <span>О нас</span>
             <p>
               Компания ЕвроКран – это команда специалистов, обеспечивающих
               эффективное использование высокопроизводительных немецких
-              автокранов марки LIEBHERR. <br />
-              <br />
+              автокранов марки LIEBHERR.
+            </p>
+            <br />
+
+            <p>
               Мы работаем с 2000 года и за это время не раз доказали свой
               профессионализм и компетентность: сегодня нам доверяют крупнейшие
-              предприятия России. <br />
-              <br />
+              предприятия России.
+            </p>
+            <br />
+
+            <p>
               Мы обладаем собственным парком с более чем 50 единицами техники и
               находимся в черте Москвы. Поэтому мы можем подать любую технику в
               любую точку города незамедлительно, что бывает весьма кстати в
@@ -650,12 +674,12 @@
               Оставьте заявку на звонок и мы ответим на все ваши вопросы в самое
               ближайшее время
             </p>
-            <form action="/" method="post">
+            <form action="/" method="post" id="form_questions">
               <input type="text" placeholder="Ваше имя" />
               <input type="text" placeholder="Ваш телефон*" />
               <input type="text" placeholder="Ваша почта" />
               <input type="text" placeholder="Оставьте ваш вопрос" />
-              <div style="position: relative">
+              <div id="questions_content_checkbox">
                 <label class="yellow_polosa_check">
                   <input
                     type="checkbox"
@@ -686,8 +710,10 @@
       <div class="footer">
         <div class="container">
           <div class="footer_content">
-            <div style="width: 130 px">
-              <img src="./img/LOGO.svg" alt="LOGO" title="Logo" />
+            <div id="logo_footer">
+              <a href="./main.html"
+                ><img src="./img/LOGO.svg" alt="LOGO" title="Logo"
+              /></a>
 
               <p name="first_li_p">
                 Аренда мобильных <br />
@@ -697,7 +723,7 @@
 
               <p id="prava">© 2000-2021 Все права защищены</p>
             </div>
-            <div class="footer_item">
+            <div class="footer_item" id="first_footer_item">
               <span id="footer_li_span">Клиентам</span>
 
               <ul class="ul">
@@ -720,7 +746,7 @@
                 <li id="footer_li_p">Модульные платформы</li>
               </ul>
             </div>
-            <div class="footer_item">
+            <div class="footer_item" name="uslugi_footer">
               <span id="footer_li_span">Услуги</span>
               <ul class="ul">
                 <li><p id="footer_li_p">Аренда гусеничного крана</p></li>
@@ -758,7 +784,7 @@
                 </li>
               </ul>
             </div>
-            <div class="footer_item">
+            <div class="footer_item" name="footer_contacts">
               <span id="footer_li_span">Контакты</span>
               <ul>
                 <li>
@@ -779,5 +805,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/polzunki.js"></script>
   </body>
 </html>

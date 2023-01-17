@@ -32,6 +32,8 @@
 
     <link rel="stylesheet" href="./nouslider/nouislider.min.css" />
     <link rel="stylesheet" href="./style_katalog.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <link rel="stylesheet" href="./media_contacts.css" />
   </head>
   <body>
     <div class="container_all">
@@ -83,7 +85,14 @@
       <div class="header_menu">
         <div class="container">
           <div class="menu_content">
-            <div class="links">
+            <div class="header_menu_button">
+              <img
+                src="../project/img/burger.svg"
+                onclick="openmenu_head()"
+                alt="burger"
+              />
+            </div>
+            <div class="links" data-open="false">
               <a
                 href="./katalog.html "
                 target="_blank"
@@ -491,7 +500,7 @@
         </div>
       </div>
       <div alt="yellow_polosy"></div>
-      <div style="height: 265px; background-color: white">
+      <div class="put_the_technik">
         <div class="container">
           <div class="yellow_polosa_content">
             <h3 id="postavim_tehniku">
@@ -662,7 +671,7 @@
       <div class="footer">
         <div class="container">
           <div class="footer_content">
-            <div style="width: 130 px">
+            <div id="logo_footer">
               <a href="./main.html">
                 <img src="./img/LOGO.svg" alt="LOGO" title="Logo"
               /></a>
@@ -675,7 +684,7 @@
 
               <p id="prava">© 2000-2021 Все права защищены</p>
             </div>
-            <div class="footer_item">
+            <div class="footer_item" id="first_footer_item">
               <span id="footer_li_span">Клиентам</span>
 
               <ul class="ul">
@@ -698,7 +707,7 @@
                 <li id="footer_li_p">Модульные платформы</li>
               </ul>
             </div>
-            <div class="footer_item">
+            <div class="footer_item" name="uslugi_footer">
               <span id="footer_li_span">Услуги</span>
               <ul class="ul">
                 <li><p id="footer_li_p">Аренда гусеничного крана</p></li>
@@ -736,7 +745,7 @@
                 </li>
               </ul>
             </div>
-            <div class="footer_item">
+            <div class="footer_item" name="footer_contacts">
               <span id="footer_li_span">Контакты</span>
               <ul>
                 <li>
