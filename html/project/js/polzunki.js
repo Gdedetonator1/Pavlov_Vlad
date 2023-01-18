@@ -71,3 +71,19 @@ function openmenu_head() {
     links.setAttribute("data-open", "false");
   }
 }
+function openmenu_catalog() {
+  var left_part = document.querySelector(".left_part");
+  var is_open = left_part.getAttribute("data-open");
+  if (is_open === "false") {
+    left_part.style.right = "-1%";
+    left_part.style.transition = "0.5s";
+    left_part.style.width = "100%";
+    left_part.style.alignItems = "center";
+    left_part.setAttribute("data-open", "true");
+  } else {
+    left_part.style.right = "-101%";
+    left_part.setAttribute("data-open", "false");
+    left_part.style.width = "271px";
+    left_part.style.alignItems = "center";
+  }
+}

@@ -35,6 +35,12 @@ h1[name="weight_title"] {
   background-color: rgba(255, 191, 29, 0.27);
 }
 /* katalog grid */
+.katalog_drop_down_menu {
+  display: none;
+  width: 61px;
+  height: 44px;
+  background: url("./img/filter.svg") center no-repeat #535554;
+}
 .katalog_grid {
   display: flex;
   gap: 30px;
@@ -270,10 +276,11 @@ img[alt="plus"] {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  flex-basis: 870px;
 }
 .menu_right_part {
   display: flex;
-  gap: 646px;
+  justify-content: space-between;
 }
 .left_menu_right_part {
   display: flex;
@@ -306,10 +313,12 @@ a[name="default"]:hover {
   width: 16.8px;
   height: 15.96px;
 }
+
 .kards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: space-between;
 }
 .kards_item {
   display: flex;
@@ -366,4 +375,13 @@ div[alt="yellow_polosy"] {
 }
 .yellow_button {
   margin-left: 22px;
+}
+.put_the_technik a {
+  width: 370px;
+  margin-left: 0px;
+}
+@media all and (max-width: 473px) {
+  .put_the_technik a {
+    width: 290px;
+  }
 }

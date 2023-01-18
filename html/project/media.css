@@ -1,5 +1,10 @@
 /* MEDIA COMMON */
-@media all and (max-width: 1020px) {
+@media all and (max-width: 1040px) {
+  .kards .kards_item:nth-child(9) {
+    display: none;
+  }
+}
+@media all and (max-width: 1040px) {
   /* head */
   .header_info {
     display: none;
@@ -100,12 +105,99 @@
     text-align: center;
   }
 }
+@media all and (max-width: 920px) {
+  .parametrs {
+    width: 226px;
+  }
+
+  .fleet_of_vehicles {
+    width: 226px;
+  }
+  .parametrs h1 {
+    padding-left: 15px;
+  }
+  .first_form {
+    padding-left: 15px;
+  }
+  .polzunki {
+    padding-left: 15px;
+  }
+  span[name="clear_span"] {
+    padding-left: 15px;
+  }
+  a[name="show_a"] {
+    margin-left: 0px;
+  }
+  #park_ul {
+    padding-left: 15px;
+  }
+  #park_ul_2 {
+    padding-left: 15px;
+  }
+  .fleet_of_vehicles h1 {
+    padding-left: 15px;
+  }
+
+  .kards .kards_item a img {
+    width: 226px;
+  }
+  .kards_item {
+    width: 226px;
+  }
+  .kards .kards_item h6 {
+    padding-left: 14px;
+  }
+  .kards .item_ul {
+    padding-left: 14px;
+  }
+  .kards .kards_item .yellow_button {
+    width: 189px;
+    margin-left: 14px;
+  }
+}
 @media all and (max-width: 800px) {
   .services_grid ul {
     justify-content: center;
   }
   .services_content span {
     text-align: center;
+  }
+  .katalog_grid {
+    flex-direction: column;
+  }
+  .katalog_drop_down_menu {
+    display: block;
+    z-index: 2;
+  }
+  .left_part {
+    position: absolute;
+    right: -101%;
+    z-index: 1;
+    gap: 0px;
+    width: 100%;
+    right: -101%;
+  }
+  h1[name="weight_title"] {
+    text-align: center;
+  }
+  .weight_grid {
+    justify-content: center;
+  }
+  .kards .kards_item a img {
+    width: 290px;
+  }
+  .kards_item {
+    width: 290px;
+  }
+  .kards .kards_item h6 {
+    padding-left: 25px;
+  }
+  .kards .item_ul {
+    padding-left: 25px;
+  }
+  .kards .kards_item .yellow_button {
+    width: 241px;
+    margin-left: 25px;
   }
 }
 @media all and (max-width: 630px) {
@@ -159,6 +251,9 @@
   .questions {
     background: url(./img/questions-bg.jpg) repeat-x,
       url(./img/questions-bg.jpg) 0px 100% repeat-x #292929;
+  }
+  .kards {
+    justify-content: center;
   }
 }
 /* 
