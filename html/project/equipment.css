@@ -22,27 +22,30 @@ ul[name="equipment_small_ul"] {
 }
 .equipment_description_right {
   display: flex;
-  gap: 27px;
-}
-.equipment_description_right_items {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
+  flex-direction: column;
 }
-.yellow_button {
+
+.equipment_description_right .yellow_button {
   width: 203.3px;
   height: 46.22px;
   margin-left: 0px;
 }
-.equipment_description_right_items span {
+.equipment_description_right p {
+  display: grid;
+
+  grid-template-columns: 320px auto;
+}
+.equipment_description_right span {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 156.69%;
   color: #2d2d2d;
+  padding-right: 20px;
 }
-.equipment_description_right_items p {
+#arenda_cost {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -60,9 +63,11 @@ ul[name="equipment_small_ul"] {
 #equipment_description_text_img {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 #equipment_description_text_img img {
-  width: 372px;
+  width: 360px;
   height: 350px;
 }
 .equipment_description_text span {

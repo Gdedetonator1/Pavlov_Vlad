@@ -66,22 +66,26 @@
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2px);
 }
-
+.buttons_container_bootstrap {
+  display: flex;
+  flex-basis: 1200px;
+  justify-content: center;
+}
 .arrow_left {
-  position: absolute;
+  /* position: absolute; */
   width: 66px;
   height: 66px;
   border: 1px solid #f3f3f3;
   border-radius: 0px;
-  top: 534px;
+  /* top: 534px;
 
-  left: 50.1%;
+  left: 50.1%; */
   background-color: #fcb427;
 }
 .arrow_right {
-  position: absolute;
+  /* position: absolute;
   top: 534px;
-  left: 46%;
+  left: 46%; */
   background-color: gray;
 
   width: 66px;
@@ -404,6 +408,7 @@ div[alt="yellow_polosa_bottom"] {
 }
 /* about us block */
 .about_us_block {
+  margin-top: 28px;
   display: flex;
   gap: 43px;
   margin-bottom: 201px;
@@ -420,7 +425,6 @@ div[alt="yellow_polosa_bottom"] {
   font-size: 40px;
   line-height: 141.69%;
   color: #2d2d2d;
-  margin-bottom: 41px;
 }
 .about_us_description p {
   font-family: "Montserrat";
@@ -445,6 +449,7 @@ img[alt="about_us"] {
 .services_content {
   display: flex;
   flex-direction: column;
+  gap: 55px;
 }
 .services_content span {
   margin-top: 54px;
@@ -453,7 +458,7 @@ img[alt="about_us"] {
   font-weight: 700;
   font-size: 40px;
   line-height: 141.69%;
-
+  text-align: center;
   color: #2d2d2d;
 }
 .services_grid {
@@ -462,6 +467,7 @@ img[alt="about_us"] {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 .services_grid li {
@@ -584,4 +590,14 @@ li {
 }
 #questions_content_checkbox {
   position: relative;
+}
+#about_us_page_p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+
+  text-align: center;
+
+  color: #ffffff;
 }

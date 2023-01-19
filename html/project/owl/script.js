@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     nav: true,
     loop: true,
-    margin: 30,
+
     autowidth: true,
     responsiveClass: true,
     dotsEach: true,
@@ -13,11 +13,11 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
-        nav: true,
+        nav: false,
       },
       600: {
         items: 2,
-        loop: false,
+        nav: false,
       },
       1000: {
         items: 3,
