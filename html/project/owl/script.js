@@ -2,9 +2,7 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     nav: true,
     loop: true,
-
-    autowidth: true,
-    responsiveClass: true,
+    margin: 30,
     dotsEach: true,
     navText: [
       '<img src="./img/Arrow_1.svg" alt="Arroleft">',
@@ -15,11 +13,11 @@ $(document).ready(function () {
         items: 1,
         nav: false,
       },
-      600: {
+      800: {
         items: 2,
         nav: false,
       },
-      1000: {
+      1200: {
         items: 3,
       },
     },

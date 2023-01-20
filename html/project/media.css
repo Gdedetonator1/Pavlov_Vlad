@@ -1,4 +1,15 @@
 /* MEDIA COMMON */
+@media all and (max-width: 1200px) {
+  .kards_item_sliders {
+    width: 354px;
+  }
+  .owl-carousel .kards_item_sliders a img {
+    width: 354px;
+  }
+  .owl-carousel {
+    width: 798px;
+  }
+}
 @media all and (max-width: 1050px) {
   .equipment_description_left img {
     width: 354px;
@@ -250,6 +261,16 @@
   #buttons_slider_1_second_btn {
     margin-right: 27px;
   }
+  .kards_item_sliders {
+    width: 290px;
+    margin: 0 auto;
+  }
+  .owl-carousel .kards_item_sliders a img {
+    width: 290px;
+  }
+  .owl-carousel {
+    width: 610px;
+  }
 }
 @media all and (max-width: 730px) {
   .equipment_description_right p:not(:nth-child(8)) {
@@ -323,6 +344,19 @@
   }
   #text_slider_1 {
     font-size: 35px;
+  }
+}
+@media all and (max-width: 610px) {
+  .kards_item_sliders {
+    width: 290px;
+    margin: 0 auto;
+  }
+  .owl-carousel .kards_item_sliders a img {
+    width: 290px;
+  }
+  .owl-carousel {
+    width: 610px;
+    margin: 0 auto;
   }
 }
 /* 

@@ -1,15 +1,28 @@
-function openmenu_head() {
-  var links = document.querySelector(".links");
-  var btn = document.querySelector(".header_menu_button img");
-  var is_open = links.getAttribute("data-open");
-
-  if (is_open === "false") {
-    links.style.right = "0%";
-    links.style.opacity = "1";
-    links.style.transition = "0.5s";
-    links.setAttribute("data-open", "true");
-  } else {
-    links.style.right = "-101%";
-    links.setAttribute("data-open", "false");
-  }
-}
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    nav: true,
+    loop: true,
+    autowidth: true,
+    margin: 30,
+    responsiveClass: true,
+    dotsEach: true,
+    navText: [
+      '<img src="../project/img/Arrow_1.svg" alt="Arroleft">',
+      '<img src="../project/img/Arrow 2.svg" alt="Arrowright">',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      770: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+        nav: true,
+        loop: true,
+      },
+    },
+  });
+});

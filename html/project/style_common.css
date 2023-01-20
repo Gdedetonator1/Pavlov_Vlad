@@ -597,3 +597,61 @@ div[name="links_to_pages"] a[alt="this_page"] {
   font-size: 14px;
   color: #c4c4c4;
 }
+div[name="margin"] {
+  margin-bottom: 150px;
+}
+#same_krans {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 141.69%;
+  color: #2d2d2d;
+  margin-bottom: 67px;
+}
+.owl-carousel .owl-item img {
+  width: auto;
+}
+.owl-nav button {
+  position: absolute;
+}
+.owl-nav .owl-prev {
+  left: 50%;
+  top: 100%;
+}
+.owl-nav .owl-next {
+  left: 46%;
+  top: 100%;
+}
+.owl-nav button img {
+  width: 40px;
+  height: 40px;
+}
+.owl-nav button img:hover {
+  background-color: #f3f3f3;
+  border: 1px solid #ff971d;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #f3f3f3;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 34px;
+  height: 4px;
+  background-color: #c4c4c4;
+  margin: 0px;
+  border-radius: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #535554;
+}
+.about_us_pictures {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+div[name="about_us_pictures"] {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
