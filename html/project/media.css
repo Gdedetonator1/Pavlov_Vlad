@@ -263,13 +263,12 @@
   }
   .kards_item_sliders {
     width: 290px;
-    margin: 0 auto;
   }
   .owl-carousel .kards_item_sliders a img {
     width: 290px;
   }
   .owl-carousel {
-    width: 610px;
+    width: 640px;
   }
 }
 @media all and (max-width: 730px) {
@@ -346,17 +345,9 @@
     font-size: 35px;
   }
 }
-@media all and (max-width: 610px) {
-  .kards_item_sliders {
-    width: 290px;
-    margin: 0 auto;
-  }
-  .owl-carousel .kards_item_sliders a img {
-    width: 290px;
-  }
+@media all and (max-width: 650px) {
   .owl-carousel {
-    width: 610px;
-    margin: 0 auto;
+    width: 350px;
   }
 }
 /* 

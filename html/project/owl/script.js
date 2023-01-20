@@ -13,11 +13,11 @@ $(document).ready(function () {
         items: 1,
         nav: false,
       },
-      800: {
+      630: {
         items: 2,
         nav: false,
       },
-      1200: {
+      1210: {
         items: 3,
       },
     },
