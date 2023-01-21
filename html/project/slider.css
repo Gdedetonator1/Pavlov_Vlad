@@ -1,0 +1,63 @@
+.owl-carousel {
+  width: 1970px;
+  margin: auto -384px;
+}
+.kards_item_sliders {
+  display: flex;
+  flex-direction: column;
+  height: 590px;
+  background-color: white;
+  gap: 20px;
+  width: 370px;
+}
+.kards_item_sliders h6 {
+  padding-left: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #2d2d2d;
+}
+
+div[name="margin"] {
+  margin-bottom: 150px;
+}
+.kards_item_sliders .yellow_button {
+  margin-left: 22px;
+}
+.owl-carousel .kards_item_sliders a img {
+  width: 370px;
+}
+.kards_item_sliders .item_ul li {
+  font-size: 16px;
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+
+  color: #2d2d2d;
+}
+.kards_item_sliders .item_ul li span:first-child {
+  width: 175px;
+  padding-right: 15px;
+}
+.kards_item_sliders p[name="all"] {
+  font-family: "PT Sans";
+  font-size: 18px;
+  padding-right: 18px;
+  font-style: normal;
+  font-weight: 700;
+
+  color: #2d2d2d;
+}
+.item_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 22px;
+  margin-top: 15px;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}

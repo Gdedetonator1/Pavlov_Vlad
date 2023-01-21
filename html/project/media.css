@@ -8,6 +8,7 @@
   }
   .owl-carousel {
     width: 798px;
+    margin: auto 0;
   }
 }
 @media all and (max-width: 1050px) {
@@ -87,6 +88,9 @@
   }
   div[name="description"] {
     margin-bottom: 30px;
+  }
+  .owl-carousel .owl-nav.disabled {
+    display: none;
   }
 }
 @media all and (max-width: 950px) {

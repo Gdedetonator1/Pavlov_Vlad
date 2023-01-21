@@ -100,10 +100,6 @@ ul[name="equipment_small_ul"] {
 
   color: #2d2d2d;
 }
-
-.yellow_button {
-  margin-left: 22px;
-}
 .kards_item_sliders {
   display: flex;
   flex-direction: column;
@@ -120,11 +116,7 @@ ul[name="equipment_small_ul"] {
   font-size: 25px;
   color: #2d2d2d;
 }
-.owl-dots {
-  position: absolute;
-  left: 40%;
-  top: 115%;
-}
+
 div[name="margin"] {
   margin-bottom: 150px;
 }
