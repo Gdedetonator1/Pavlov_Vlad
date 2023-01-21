@@ -140,3 +140,6 @@ div[name="margin"] {
   font-size: 18px;
   padding-right: 18px;
 }
+.owl-carousel .owl-item {
+  min-width: 370px;
+}

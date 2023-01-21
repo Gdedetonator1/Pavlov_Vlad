@@ -61,3 +61,6 @@ div[name="margin"] {
 .owl-carousel .owl-nav.disabled {
   display: block;
 }
+.owl-carousel .owl-item {
+  min-width: 370px;
+}

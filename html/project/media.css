@@ -274,6 +274,9 @@
   .owl-carousel {
     width: 640px;
   }
+  .owl-carousel .owl-item {
+    min-width: 300px;
+  }
 }
 @media all and (max-width: 730px) {
   .equipment_description_right p:not(:nth-child(8)) {
